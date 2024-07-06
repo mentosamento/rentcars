@@ -1,0 +1,22 @@
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-self: center;
+
+}
+
+.main-text-logo {
+    font-family: Inter;
+    color: #25C1CB;
+    letter-spacing: -0.5px;
+    
+}
+
+.sub-text-logo {
+    font-family: Inter;
+    line-height: 44px;
+    letter-spacing: -0.5px;
+    
+
+}

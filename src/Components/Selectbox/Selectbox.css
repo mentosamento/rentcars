@@ -1,0 +1,11 @@
+.selectbox-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.selectbox {
+    width: 100%;
+}
+
+

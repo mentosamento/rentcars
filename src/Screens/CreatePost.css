@@ -1,0 +1,30 @@
+.post-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    margin: 0 3%;
+    row-gap: 15px;
+    margin-top: 2%;
+}
+.post-header {
+    margin: 0 3%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-phone {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.post-subheader {
+    background-color: #25C1CB;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

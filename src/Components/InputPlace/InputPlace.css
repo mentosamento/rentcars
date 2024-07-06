@@ -1,0 +1,16 @@
+.inputplace-container {
+    height: 100%;
+    
+}
+
+.inputplace-input {
+    width: 95%;
+    height: 100%;
+    border-radius: 16px;
+    border: 0;
+    padding-left: 3%;
+    padding-right: 2%;
+    font-family: Inter;
+    font-size: 0.95rem;
+    
+}

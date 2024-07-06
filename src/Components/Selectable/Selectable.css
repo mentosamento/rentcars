@@ -1,0 +1,45 @@
+.main-selectable-container {
+    background-color: #fff;
+    height: 39px;
+    border-radius: 15px;
+    padding: 3px 3px;
+}
+
+.selectable-container {
+    height: 39px;
+    display: flex;
+    flex-direction: row;
+}
+
+.selectable-first {
+    height: 100%;
+    width: 50%;
+    border-radius: 12px;
+    cursor: pointer;
+    
+    
+}
+
+.selectable-second {
+    height: 100%;
+    width: 50%;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+
+.first-text {
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+
+.second-text {
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 40px;
+    
+}

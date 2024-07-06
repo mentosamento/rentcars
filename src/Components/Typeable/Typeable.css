@@ -1,0 +1,47 @@
+.max-container {
+   
+}
+
+.min-container {
+
+}
+
+.count-container {
+    background-color: #fff;
+    height: 45px;
+    border-radius: 12px;
+}
+
+.counters-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2%
+}
+
+.inputs {
+    background-color: #fff;
+    border-radius: 12px;
+    border: 0;
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 500;
+    display: block;
+    height: 100%;
+    padding-left: 6%;
+    
+    width: 75%;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,14 @@
+.sbutton {
+    height: 45px;
+    background-color: #25C1CB;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.sbutton-text {
+    color: #fff;
+    font-family: Inter;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 45px;
+}

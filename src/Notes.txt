@@ -1,0 +1,72 @@
+.add-main-container {
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+.sign-up-container {
+    height: 400px;
+    width: 95%;
+    margin-top: 5vh;
+    margin-left: 2.5%;
+    border-radius: 35px;
+    background-color: #004567;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='35' ry='35' stroke='white' stroke-width='6' stroke-dasharray='7%2c15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 35px;
+    padding-top: 2%;
+}
+
+.inputplace-contain {
+    height: 40%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5%;
+    column-gap: 1%;
+    margin: 0 3%
+}
+.title-select-container {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-signup {
+    color: #fff;
+    margin-right: auto;
+    line-height: normal;
+    font-family: Inter;
+    font-weight: 600;
+    margin-bottom: 2%;
+    font-size: ;
+    
+}
+
+.title-signin {
+    color: #CCF9FF;
+    text-decoration: none;
+    font-family: Inter;
+    width: fit-content;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1%;
+    line-height: normal;
+
+
+}
+
+
+<Header bgcolor={"#fff"}/>
+            <div className='sign-up-container'>
+                <div className='title-select-container'>
+                    <h1 className='title-signup'>Hesab yarat</h1>
+                    <h1 className='title-signin'>Hesabın var?</h1>
+                </div>
+                <div className='inputplace-contain'>
+                    <InputPlace inputtitle="Ad" type="text"/>
+                    <InputPlace inputtitle="Soyad" type="text"/>
+                    <InputPlace inputtitle="Elektron poçt" type="text"/>
+                    <InputPlace inputtitle="Şifrə" type="password"/>
+                    <InputPlace inputtitle="(+994)12_000_00_00" type="text"/>
+
+                </div>
+            </div>
