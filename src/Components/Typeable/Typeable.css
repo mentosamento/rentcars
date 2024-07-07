@@ -10,6 +10,7 @@
     background-color: #fff;
     height: 45px;
     border-radius: 12px;
+    flex-grow: 1;
 }
 
 .counters-container {

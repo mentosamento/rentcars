@@ -1,16 +1,8 @@
-.the-search-bar {
+.searchSection {
     background-color: #004567;
-    height: 40vh;
-    width: 100%;
-    display: flex;
-    justify-content: baseline;
-    align-items: baseline;
-    flex-direction: column;
-    
-    
-
+    padding: 2rem;
 }
-.main-title {
+.mainTitle {
     color: #fff;
     justify-self: baseline;
     align-self: baseline;
@@ -19,24 +11,28 @@
     font-size: 1.5rem;
     margin-bottom: 3vh;
     margin-top: 3.5vh;
+    text-align: left;
 }
 
-.marka-box-container {
-   
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns, each 1fr */
+.markaBoxContainer {
     margin-left: 2%;
     margin-right: 2%;
     row-gap: 5%;
     column-gap: 1%;
-
     
-
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
 }
 
-.select-box {
-    width: 100%;
+.selectBox {
+    margin-bottom: 1rem;
+    @media (min-width: 1024px) {
+        margin-bottom: 0;;
+      }
 }
+
 
 .marka-box {
     grid-column: span 2;

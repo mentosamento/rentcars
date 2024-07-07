@@ -1,14 +1,15 @@
-import { Route, Routes } from 'react-router-dom';
 import Header from '../Components/Header/Header';
 import Main from '../Components/Main/Main';
+import Footer from '../Components/Footer/Footer';
 
 
 function MainPage() {
   return (
-    <div className="App">
-      <Header />
-      <Main />
-    </div>
+    <>
+    <Header />
+    <Main />
+    <Footer />
+    </>
   );
 }
 

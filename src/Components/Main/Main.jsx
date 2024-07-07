@@ -1,16 +1,16 @@
-import Itself from '../Itself/Itself';
-import './Main.css';
+import Itself from "../Itself/Itself";
+import ResponsiveContainer from "../ResponsiveContainer/ResponsiveContainer";
+import styles from "./Main.module.css";
 
 function Main() {
   return (
-    <div className="main-container">
-      <div className='ad1-container'></div>
-      <div className="main-website">
-        <Itself />
-      </div>
-      <div className='ad2-container'></div>
-
-    </div>
+      <ResponsiveContainer className={styles.mainContainer}>
+        <div className={styles.adContainer}></div>
+        <div className={styles.mainWebsite}>
+          <Itself />
+        </div>
+        <div className={styles.adContainer}></div>
+      </ResponsiveContainer>
   );
 }
 
