@@ -23,7 +23,7 @@ function Footer() {
             <a href="#" className={styles.link}>
               Bizim haqda
             </a>
-            <a href="#" className={styles.link}>
+            <a href="#" className={styles.linke}>
               Reklam yerləşdirin
             </a>
           </div>

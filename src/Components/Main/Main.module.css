@@ -10,7 +10,7 @@
 
 .adContainer {
     background-color: #42b6f5;
-    height: 160px;
+    height: 15.625vw;
     width: 100%;
 
     @media (min-width: 1024px) {
