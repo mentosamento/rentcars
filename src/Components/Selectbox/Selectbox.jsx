@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate, useHistory, json } from 'react-router-dom';
 import Select, { createFilter } from 'react-select';
-import Modelbox from '../ModelBox/ModelBox';
 import "./Selectbox.css"
 import { useDispatch, useSelector } from 'react-redux';
 import {changeMarka, changeModel, changeCity, changeMinYear, changeMaxYear, changeBan, changeColor, changeOwnerType}  from '../../features/search';
+import { optionsMap } from '../../utils/Data';
 
 
 function Selectbox({type, options, title}) {
@@ -23,22 +23,7 @@ function Selectbox({type, options, title}) {
 
   const search = useSelector((state) => state.search.value);
 
-  const hyundai = [
-    { value: 'santafe', label: 'Santa-Fe' },
-    { value: 'sonata', label: 'Sonata' },
-    { value: 'quanji', label: 'Quanji' },
-  ];
-  const landrover = [
-    { value: 'rangerover', label: 'Range Rover' },
-    { value: 'velar', label: 'Velar' },
-    { value: 'rangeroversport', label: 'Range Rover Sport' },
-  ];
-
-
-  const optionsMap = {
-    hyundai: hyundai,
-    landrover: landrover
-  };
+  
 
 
 

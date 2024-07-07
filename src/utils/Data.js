@@ -2,6 +2,22 @@
 
 
 
+const hyundai = [
+  { value: 'santafe', label: 'Santa-Fe' },
+  { value: 'sonata', label: 'Sonata' },
+  { value: 'quanji', label: 'Quanji' },
+];
+const landrover = [
+  { value: 'rangerover', label: 'Range Rover' },
+  { value: 'velar', label: 'Velar' },
+  { value: 'rangeroversport', label: 'Range Rover Sport' },
+];
+
+
+const optionsMap = {
+  hyundai: hyundai,
+  landrover: landrover
+};
 
 
 
@@ -35,4 +51,4 @@ const markaOptions = [
     { value: 'kabriolet', label: 'Kabriolet' },
   ];
 
-export {markaOptions, colorOptions, cityOptions, banOptions};
+export {markaOptions, colorOptions, cityOptions, banOptions, optionsMap};

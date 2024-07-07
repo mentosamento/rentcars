@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import SelectMui from '../Components/SelectMui/SelectMui';
-import  {markaOptions, colorOptions, cityOptions, banOptions} from '../utils/Data';
+import  {markaOptions, colorOptions, cityOptions, banOptions, optionsMap} from '../utils/Data';
 import "./CreatePost.css"
 import Header from '../Components/Header/Header';
 import Logo from '../Components/Logo/Logo';
+import { useSelector } from 'react-redux';
 
 function CreatePost() {
     
-    
+    const post = useSelector((state) => state.post.value);
+
     return (
         <div>
             <div className='post-header'>
@@ -25,7 +27,7 @@ function CreatePost() {
                     <SelectMui options={markaOptions} title="Model"/>
                 </div>
                 <div>
-                    <SelectMui options={markaOptions} title="Marka"/>
+                    <SelectMui options={cityOptions} title="Şəhər"/>
                 </div>
                 <div>
                     <SelectMui options={markaOptions} title="Marka"/>
@@ -42,6 +44,9 @@ function CreatePost() {
                 <div>
                     <SelectMui options={markaOptions} title="Marka"/>
                 </div>
+                <h1>{post.marka}</h1>
+                <h1>{post.model}</h1>
+                <h1>{post.city}</h1>
             </div>
             
         </div>
