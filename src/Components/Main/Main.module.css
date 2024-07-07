@@ -1,0 +1,25 @@
+.mainContainer {
+    background-color: blue;
+    width: 100%;
+    padding:0;
+      @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+      }
+}
+
+.adContainer {
+    background-color: #42b6f5;
+    height: 160px;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        height: 600px;
+        width: 160px;
+      }
+}
+
+.mainWebsite {
+    background-color: white;
+    flex: 1;
+}

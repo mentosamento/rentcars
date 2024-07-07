@@ -1,0 +1,39 @@
+.searchSection {
+    background-color: #004567;
+    padding: 2rem;
+}
+.mainTitle {
+    color: #fff;
+    justify-self: baseline;
+    align-self: baseline;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
+    margin-top: 3.5vh;
+    text-align: left;
+}
+
+.markaBoxContainer {
+    margin-left: 2%;
+    margin-right: 2%;
+    row-gap: 5%;
+    column-gap: 1%;
+    
+    @media (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+}
+
+.selectBox {
+    margin-bottom: 1rem;
+    @media (min-width: 1024px) {
+        margin-bottom: 0;;
+      }
+}
+
+
+.marka-box {
+    grid-column: span 2;
+}
