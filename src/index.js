@@ -9,10 +9,14 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import searchReducer from "./features/search";
+import postReducer from "./features/post";
+
+import post from './features/post';
 
 const store = configureStore({
   reducer: {
-    search: searchReducer
+    search: searchReducer,
+    post: postReducer,
   }
 });
 
