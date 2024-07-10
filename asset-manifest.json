@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/rentcars/static/css/main.7c6cab3e.css",
-    "main.js": "/rentcars/static/js/main.d813e060.js",
+    "main.css": "/rentcars/static/css/main.b589249f.css",
+    "main.js": "/rentcars/static/js/main.0dc9d63d.js",
+    "static/media/crown.png": "/rentcars/static/media/crown.4788ed03f8b204de33d4.png",
+    "static/media/corolla.jpg": "/rentcars/static/media/corolla.52681f4db513f89d40ab.jpg",
+    "static/media/reklam.jpg": "/rentcars/static/media/reklam.f138ac4f809cc63565dd.jpg",
+    "static/media/vip.png": "/rentcars/static/media/vip.24998633fa5aa60083c4.png",
+    "static/media/coffee.png": "/rentcars/static/media/coffee.c3f58694006b772cf8d1.png",
     "index.html": "/rentcars/index.html",
-    "main.7c6cab3e.css.map": "/rentcars/static/css/main.7c6cab3e.css.map",
-    "main.d813e060.js.map": "/rentcars/static/js/main.d813e060.js.map"
+    "main.b589249f.css.map": "/rentcars/static/css/main.b589249f.css.map",
+    "main.0dc9d63d.js.map": "/rentcars/static/js/main.0dc9d63d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c6cab3e.css",
-    "static/js/main.d813e060.js"
+    "static/css/main.b589249f.css",
+    "static/js/main.0dc9d63d.js"
   ]
 }
