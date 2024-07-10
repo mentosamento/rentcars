@@ -1,0 +1,126 @@
+.card {
+    background-color: #fff;
+    position: relative;
+    height: 230px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+
+.card:hover{
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+    transition: all .3s ease-in-out;
+    
+}
+
+
+.cardImage {
+    width: 100%;
+    height: 60%;
+    object-position: center;
+    object-fit: cover;
+
+}
+
+
+.title {
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 550;
+    text-align: left;
+    width: 100%;
+    letter-spacing: -0.3px;
+    padding-left: 4%;
+    padding-right: 2.5%;
+    
+}
+
+.price {
+    margin-top: 2.8%;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+    letter-spacing: -0.3px;
+    padding-left: 4%;
+    padding-right: 2.5%;
+}
+
+
+.info {
+    margin-top: 1px;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 550;
+    text-align: left;
+    width: 100%;
+    letter-spacing: -0.3px;
+    padding-left: 4%;
+    padding-right: 2.5%;
+}
+
+
+.time {
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 450;
+    text-align: left;
+    width: 100%;
+    letter-spacing: -0.3px;
+    padding-left: 4%;
+    padding-right: 2.5%;
+    color: #737373;
+}
+
+
+.salon {
+    position: absolute;
+    background-color: #25C1CB;
+    margin-top: 115px;
+    width: 55px;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.salonText {
+    font-size: 12px;
+    font-family: Inter;
+    color: #fff;
+    font-weight: 500;
+}
+
+.heart {
+    
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+.paidContainer {
+    background-color: #fff;
+    position: absolute;
+    
+    height: 28px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    transition: all;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.crown {
+    width: 20px;
+    height: auto;
+}
+
+.vip {
+    width: 20px;
+    height: auto;
+}

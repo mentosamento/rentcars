@@ -20,7 +20,7 @@
 .logoTextPrimary {
   color: #25C1CB; /* primary color */
   font-size: 1.8rem; /* text-2xl */
-  font-weight: 600; /* font-semibold */
+  font-weight: 700; /* font-semibold */
   line-height: 25px;
   font-family: Inter;
   letter-spacing: -0.5px;
@@ -28,7 +28,7 @@
 }
 
 .logoText {
-  font-weight: 600; /* font-semibold */
+  font-weight: 700; /* font-semibold */
   font-family: Inter;
   color: #000;
   font-size: 1.2rem;

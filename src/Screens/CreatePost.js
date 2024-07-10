@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import SelectMui from '../Components/SelectMui/SelectMui';
 import  {markaOptions, colorOptions, cityOptions, banOptions, optionsMap} from '../utils/Data';
 import "./CreatePost.css"
@@ -7,6 +7,19 @@ import Logo from '../Components/Logo/Logo';
 import { useSelector } from 'react-redux';
 
 function CreatePost() {
+    const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setScreenWidth(window.innerWidth);
+      };
+  
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
     
     const post = useSelector((state) => state.post.value);
 
@@ -16,7 +29,9 @@ function CreatePost() {
                 <Logo />
             </div>
             <div className='post-subheader'>
-                <h2 className='post-phone'>Siz +994508095655 nömrəsindən elan yerləşdirirsiz</h2>
+                <h2 className='post-phone'>
+                {screenWidth >= 550 ? "Siz +994508095655 nömrəsindən elan yerləşdirirsiz" : "Elan yerləşdir"}
+                </h2>
             </div>
 
             <div className='post-grid'>

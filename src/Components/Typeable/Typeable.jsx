@@ -58,12 +58,12 @@ function Typeable() {
         
 
 
-        dispatch(changeMaxPrice( ( maxValue == "" ) ? "1000000000" : maxValue) )
+        dispatch(changeMaxYear( ( maxValue == "" ) ? "1000000000" : maxValue) )
       }, [maxValue])
 
       useEffect(() => {
         
-        dispatch(changeMinPrice( ( value  == "" ) ? "0" : value) )
+        dispatch(changeMinYear( ( value  == "" ) ? "0" : value) )
       }, [value])
 
 

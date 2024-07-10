@@ -1,8 +1,8 @@
 .searchSection {
     background-color: #004567;
     padding: 3%;
-    padding-top: 2.5%;
-    padding-bottom: 4%;
+    padding-top: 4vh;
+    padding-bottom: 4.5%;
 }
 .mainTitle {
     color: #fff;
@@ -37,4 +37,15 @@
 
 .marka-box {
     grid-column: span 2;
+}
+
+.adContainer {
+    
+    height: 15.625vw;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        height: 600px;
+        width: 160px;
+      }
 }
