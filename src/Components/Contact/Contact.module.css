@@ -1,0 +1,59 @@
+.container {
+    margin-top: 12px;
+}
+
+
+
+
+.title {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.inputContainer {
+    width: 50%;
+    @media (max-width: 840px) {
+        width: 100%;
+    }
+    margin-bottom: 10px;
+}
+.cont {
+    width: 50%;
+    @media (max-width: 840px) {
+        width: 100%;
+    }
+}
+.inputContainer1 {
+    width: 50%;
+    @media (max-width: 840px) {
+        width: 100%;
+    }
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: #25C1CB;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.btext {
+    
+    color: #fff;
+    font-size:  16px;
+    font-weight: 400;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    line-height: 38px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    line-height: auto;
+    font-size: 14px;
+}

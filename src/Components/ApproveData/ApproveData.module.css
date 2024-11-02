@@ -1,0 +1,47 @@
+.card {
+  background-color: rgb(232, 232, 232);
+  height: 330px;
+  margin: 0 3%;
+  border-radius: 12px;
+  padding: 1.5% 2%;
+  position: relative;
+  margin-top: 5vh;
+}
+
+.id {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+
+.marka {
+  text-align: left;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.model {
+  text-align: left;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.desc {
+  width: 60vw;
+}
+.description {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;
+  margin-top: 20px;
+  text-align: left;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.photo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}

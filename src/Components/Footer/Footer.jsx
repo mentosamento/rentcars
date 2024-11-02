@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './Footer.module.css';
-import ResponsiveContainer from '../ResponsiveContainer/ResponsiveContainer';
+import React from "react";
+import styles from "./Footer.module.css";
+import ResponsiveContainer from "../ResponsiveContainer/ResponsiveContainer";
 
 function Footer() {
   return (
@@ -44,4 +44,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default React.memo(Footer);
