@@ -2,7 +2,6 @@ const { https, config } = require('firebase-functions');
 const { createTransport } = require('nodemailer');
 const cors = require('cors');
 
-//nupe lsjs hhho ioze
 const corsHandler = cors({ origin: true });
 
 const {
